@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+    background: #fff;
+    color: #444;
+    text-align: center;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: url("images/photo1.jpg") center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.6);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    font-family: "Great Vibes";
+    font-size: 70px;
+    color: #bfa37b;
+}
+
+h2 {
+    font-family: "Great Vibes";
+    font-size: 40px;
+    color: #bfa37b;
+}
+
+.section {
+    padding: 60px 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #bfa37b;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 30px;
+    background: #f7f7f7;
+}
